@@ -14,7 +14,7 @@ pygmentsStyle = "monokai"
 [params]
 	name = "Christian Richter"
 	description = "Data, Cloud & Container"
-	bio = "Blogger & Programmer"
+	bio = "Data, Cloud & Container"
 	# Enter optionally your twitter account
 	twitter = "Your Twitter account"
 	enableRSS = false
@@ -44,9 +44,9 @@ pygmentsStyle = "monokai"
 	subtitle404 = ""
 
 	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
-	iconFont = "mono-social"
-    # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
-    socialIconStyle = "rounded"
+	iconFont = "mono-social"       
+        # The social icons can be styled if differently you use mono as font - circle, rounded, or empty
+        socialIconStyle = "rounded"
 
 # Add additional social link entries underneath
 [social]
