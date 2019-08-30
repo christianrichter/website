@@ -7,7 +7,7 @@ theme = "hugo-cactus-theme"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
 # Disable comments by leaving disqusShortname empty
-disqusShortname = "spf13"
+disqusShortname = "disqus_wvxwFCsXdj"
 pygmentsCodefences = true
 pygmentsStyle = "monokai"
 
@@ -37,7 +37,7 @@ pygmentsStyle = "monokai"
 	copyright = ""
 	# Sharing options and author information in posts
         about=""
-        aboutAuthor = "I'm a technology enthusiast helping my clients to work with data. I'm available for hire."
+        aboutAuthor = "Consultant, Engineer & Architect. I'm documenting my journey into Kubernates land. I'm available for hire."
         tweet = ""
 	share = ""
 	# 404 page
