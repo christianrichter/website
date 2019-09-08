@@ -276,7 +276,7 @@ Following these steps should result in a docker image uploaded to a registry.
 Now with that custom image, Kafka Connect can be deployed again. Go back into your Strimzi distribution directory and modify the file `vi examples/kafka-connect/kafka-connect.yaml` and add the line `image: <repo>/<name>:<tag>` so that it finally looks like this (replace placeholders):
 
 
-```
+```yaml
 apiVersion: kafka.strimzi.io/v1beta1
 kind: KafkaConnect
 metadata:

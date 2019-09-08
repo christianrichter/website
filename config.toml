@@ -1,56 +1,88 @@
-# Site settings
+## Basic Configuration
+
+# baseurl = "https://shenoybr.github.io/hugo-goa-demo/"
 baseurl = "https://master.d2whfy7ev3l94o.amplifyapp.com"
-# themesDir = "../.."
-languageCode = "en-us"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Christian Richter"
 title = "Data, Cloud & Container"
-theme = "hugo-cactus-theme"
-# Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
-# Disable comments by leaving disqusShortname empty
-disqusShortname = "crichter"
-pygmentsCodefences = true
-pygmentsStyle = "monokai"
 
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
 [params]
-	name = "Christian Richter"
-	description = "Data, Cloud & Container"
-	bio = "Data, Cloud & Container"
-	# Enter optionally your twitter account
-	twitter = ""
-	enableRSS = false
+author = "Christian Richter"
+intro = "Data, Cloud & Container"
+description = "Consultant, Engineer & Architect. I'm documenting my journey into Kubernates land. I'm available for hire."
+authorimage = "avatar@2x.png"
+dateformat = "Jan 2, 2006"
 
-	# Integrate Javascript files or stylesheets by adding the url to the external assets or by
-	# linking local files with their path relative to the static folder, e.g. "css/styles.css"
-	customCSS = []
-	customJS  = []
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,goa,hugo,developer"
 
-	# The variables below are optionally too and can be used to
-	# translate or customize each string of the theme.
+## Social Accounts
+[params.social]
+github = "christianrichter"
+# instagram = "<username>"
+# xing = "<username>"
+linkedin = "christian-richter"
+#twitter = "<username>"
+# facebook = "<username>"
+# google = "<username>"
+#stackoverflow = "<username>"
+#lastfm = "<username>"
+#goodreads = "<username>"
+#gitlab = "<username>"
+bitbucket = "chrrichter"
+# fivehundredpx = "<username>"
+#flickr = "<username>"
+#foursquare = "<username>"
+hackernews = "pappnase12"
+#kickstarter = "<username>"
+#patreon = "<username>"
+#pintrest = "<username>"
+#steam = "<username>"
+#reddit = "<username>"
+#snapchat = "<username>"
+#youtube = "<username>"
+#keybase = "<username>"
+#twitch = "<username>"
+#soundcloud = "<username>"
+#tumblr = "<username>"
+#strava = "<username>"
+skype = "christian____"
+#telegram = "<username>"
+#whatsapp = "<username>"
+email = "christian_richter_AT_gmx.de"
 
-	# Navigation links
-	home = ""
-	subscribe = ""
-	# Pagination links
-	olderPosts = ""
-	newerPosts = ""
-	readMore = ""
-	copyright = ""
-	# Sharing options and author information in posts
-        about=""
-        aboutAuthor = "Consultant, Engineer & Architect. I'm documenting my journey into Kubernates land. I'm available for hire."
-        tweet = ""
-	share = ""
-	# 404 page
-	title404 = ""
-	subtitle404 = ""
+## Extras
+[params.extra]
+copyright = "© 2019. Christian Richter"
+poweredby = false
+highlightjs = true
+socialmarkup = true
 
-	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
-	iconFont = "font-awesome"       
-        # The social icons can be styled if differently you use mono as font - circle, rounded, or empty
-        socialIconStyle = "circle"
-
-# Add additional social link entries underneath
-[social]
-    twitter  = "https://www.twitter.com/"
-    github   = "https://www.github.com/christianrichter"
-    linkedin = "https://www.linkedin.com/in/christian-richter/"
+## Main Menu
+[[menu.main]]
+    name = "blog"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
