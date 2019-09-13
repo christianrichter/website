@@ -37,14 +37,14 @@ This will deploy a `stunnel` pod and connect it with the `my-cluster-zookeeper-c
 Now the with a running Zookeeper entrance the Kafka Manager can be deployed. The already exists a `helm` chart that can be used, the only configuration to change is the `zkHosts` parameter. The following command will deploy the Kafka Manager:
 
 ```bash
-helm install stable/kafka-manager --set zkHosts=zoo-entrance:2181
+helm install stable/kafka-manager --name=km-testing --set zkHosts=zoo-entrance:2181
 ```
 ## Access the Kafka Manager
 
 To access the Kafka Manager use `kubectl` to forward a port from the Kafka Manager pod:
 
 ```bash
-export POD_NAME=$(kubectl get pods --namespace default -l "app=kafka-manager,release=lunging-aardwolf" -o jsonpath="{.items[0].metadata.name}")
+export POD_NAME=$(kubectl get pods --namespace default -l "app=kafka-manager,release=km-testing" -o jsonpath="{.items[0].metadata.name}")
 kubectl port-forward $POD_NAME 8080:9000
 ```
 
