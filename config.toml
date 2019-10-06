@@ -30,8 +30,8 @@ dateformat = "Jan 2, 2006"
 
 ## Site Meta Settings
 [params.meta]
-description = "Simple minimalist theme"
-keywords = "minimalist,blog,goa,hugo,developer"
+description = "My journey into Kubernetes land."
+keywords = "Kubernetes, Docker, Spark, Data, AI, ML"
 
 ## Social Accounts
 [params.social]
