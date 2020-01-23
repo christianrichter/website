@@ -1,0 +1,73 @@
+baseurl = "https://www.crichter.io/"
+languageCode = "en-us"
+title = "Data, Cloud & Container"
+theme = "hugo-theme-yuki"
+author = "Christian Richter"
+
+# Copyright notice. This will display on the footer.
+copyright = "© 2020 Christian Richter"
+paginate = 10
+
+disqusShortname = "crichter" # Comment out to disable Disqus.
+
+# Theme config
+[params]
+
+  # The content you want to be listed on list pages.
+  mainSections = ["post"]
+  intro = "Data, Cloud & Container"
+  # The information will display on the post pages.
+  author = "Christian Richter"
+  description = "Consultant, Engineer & Architect. I'm documenting my journey into Kubernates land. I'm available for hire."
+  authorwebsite = "https://crichter.io/"
+  authorimage = "images/avatar@2x.png"
+  
+  # The path to your images
+  favicon = "images/logo_fav.png"
+  logo = "images/logo_invers.png"
+  avatar = ""
+  displayImg = "images/display.png"
+
+  # This will display on the index page
+  snsTitle = "Contact"
+
+  # Google Analytics API key.
+  ga_api_key = "Your Google Analytics tracking id"
+
+# Navbar config
+[[menu.nav]]
+    name = "HOME"
+    url = "/"
+    weight = 1
+
+[[menu.nav]]
+    name = "BLOG"
+    url = "/post"
+    weight = 2
+
+[[menu.nav]]
+    name = "ABOUT"
+    url = "/about"
+    weight = 3
+
+[[menu.nav]]
+    name = "TAGS"
+    url = "/tags/"
+    weight = 4
+
+# Social accounts config (This will display on the index page)
+[[menu.social]]
+    name = "GitHub"
+    url = "https://github.com/christianrichter"
+    weight = 2
+
+[[menu.social]]
+    name = "LinkedIn"
+    url = "https://linkedin.com/in/christian-richter"
+    weight = 1
+
+[[menu.social]]
+    name = "Email"
+    url = "mailto:christian_richter_AT_gmx.de"
+    weight = 3
+
