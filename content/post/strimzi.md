@@ -1,7 +1,7 @@
 ---
 title: "Deploy Kafka & Kafka Connect w/ Strimzi operator on a Rancher Kubernetes Cluster"
 date: 2019-08-29T17:47:07+02:00
-draft: true
+draft: false
 ---
 
 

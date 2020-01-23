@@ -1,7 +1,7 @@
 ---
 title: "Deploy the Kafka Manager on K8s (and connect with a Strimzi deployed Kafka cluster)"
 date: 2019-09-13T09:15:01+02:00
-draft: true
+draft: false
 ---
 
 This document is a short guide on how to deploy the Yahoo Kafka Manager and connect it with a Kafka cluster deployed using the Strimzi operator.

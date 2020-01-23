@@ -50,10 +50,10 @@ disqusShortname = "crichter" # Comment out to disable Disqus.
     url = "/about"
     weight = 3
 
-[[menu.nav]]
-    name = "TAGS"
-    url = "/tags/"
-    weight = 4
+# [[menu.nav]]
+#     name = "TAGS"
+#     url = "/tags/"
+#     weight = 4
 
 # Social accounts config (This will display on the index page)
 [[menu.social]]

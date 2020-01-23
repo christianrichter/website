@@ -1,7 +1,7 @@
 ---
 title: "Spark on K8s"
 date: 2019-10-03T22:25:10+02:00
-draft: true
+draft: false
 ---
 
 This document is a short guide on how to run a PySpark job on a Kubernetes cluster accessing data in a S3 bucket.
