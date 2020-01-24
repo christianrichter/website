@@ -20,12 +20,11 @@ disqusShortname = "crichter" # Comment out to disable Disqus.
   author = "Christian Richter"
   description = "Consultant, Engineer & Architect. I'm documenting my journey into Kubernates land. I'm available for hire."
   authorwebsite = "https://crichter.io/"
-  authorimage = "images/avatar@2x.png"
-  
+
   # The path to your images
   favicon = "images/logo_fav.png"
   logo = "images/logo_invers.png"
-  avatar = ""
+  avatar = "https://secure.gravatar.com/avatar/04b5f5698e05f05b8c45ef80aa825083"
   displayImg = "images/display.png"
 
   # This will display on the index page
@@ -70,4 +69,3 @@ disqusShortname = "crichter" # Comment out to disable Disqus.
     name = "Email"
     url = "mailto:christian_richter_AT_gmx.de"
     weight = 3
-
