@@ -46,7 +46,7 @@ disqusShortname = "crichter" # Comment out to disable Disqus.
 
 [[menu.nav]]
     name = "ABOUT"
-    url = "/about"
+    url = "/pages/about"
     weight = 3
 
 # [[menu.nav]]
