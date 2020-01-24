@@ -31,7 +31,7 @@ disqusShortname = "crichter" # Comment out to disable Disqus.
   snsTitle = "Contact"
 
   # Google Analytics API key.
-  ga_api_key = "Your Google Analytics tracking id"
+  ga_api_key = "UA-156918090-1"
 
 # Navbar config
 [[menu.nav]]
